@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1330px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.nav {
+	padding: 15px 0;
+	background: #232323;
+}
+
+.nav__content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav__logo {
+	font-size: 32px;
+	color: white;
+	font-family: serif;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.nav__list-link {
+	font-size: 18px;
+	color: white;
+	font-family: serif;
+}
+
+.users,
+.comments,
+.todos {
+	display: none;
+}
+
+.active {
+	display: block;
+}
+.section {
+	padding: 40px 0;
+}
+.users__cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+	gap: 20px;
+}
+
+.user__card {
+	padding: 16px;
+	border: 1px solid #232323;
+	border-radius: 12px;
+	width: 100%;
+	max-width: 300px;
+}
+
+.users__comments {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+	gap: 20px;
+}
+
+.user__comment {
+	padding: 16px;
+	border: 1px solid #232323;
+	border-radius: 12px;
+	width: 100%;
+	max-width: 300px;
+}
+.users__todos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+	gap: 20px;
+}
+
+.user__todo {
+	padding: 16px;
+	border: 1px solid #232323;
+	border-radius: 12px;
+	width: 100%;
+	max-width: 300px;
+}

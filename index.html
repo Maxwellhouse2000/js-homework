@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header class="header">
+        <nav class="nav">
+            <div class="container nav__content">
+                <a href="" class="nav__logo">
+                    LOGO
+                </a>
+
+                <ul class="nav__list">
+                    <li>
+                        <a href="" class="nav__list-link" data-tab="users">
+                            Пользователи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__list-link" data-tab="comments">
+                            Комментарии
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="nav__list-link" data-tab="todos">
+                            Все
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="users active section" data-tab="users">
+            <div class="container users__content">
+                <h2 class="users__title">
+                    Пользователи
+                </h2>
+                <div class="users__cards">
+                   
+                </div>
+            </div>
+        </section>
+        <section class="comments section" data-tab="comments">
+            <div class="container comments__content">
+                <h2 class="comments__title">
+                    Комментарии
+                </h2>
+            </div>
+            <div class="users__comments">
+                   
+                </div>
+        </section>
+        <section class="todos section" data-tab="todos">
+            <div class="container todos__content">
+                <h2 class="todos__title">
+                    Все
+                </h2>
+            </div>
+            <div class="users__todos">
+                   
+                </div>
+        </section>
+    </main>
+
+    <!-- <script src="app.js"></script> -->
+    <!-- <script src="callback.js"></script> -->
+    <!-- <script src="promise.js"></script> -->
+    <script src="async.js"></script>
+</body>
+
+</html>
